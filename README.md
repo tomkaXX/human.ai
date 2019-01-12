@@ -19,3 +19,5 @@ Alexa voice service and amazon cloud - lambda
 
 Intel Real Sence camera for gesture recognition
 
+
+
