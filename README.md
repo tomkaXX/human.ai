@@ -15,9 +15,9 @@ Trained model on TensorFlow can recognize people and store relevant data about t
 personalized tasks and lists
 
 
-Alexa voice service and amazon cloud - lambda
+*Alexa voice service* and amazon cloud - lambda
 
-Intel Real Sence camera for gesture recognition
+*Intel Real Sence* camera for gesture recognition
 
 
 
