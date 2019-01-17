@@ -6,3 +6,5 @@ Allow recognize face of the people to iteract  with them in "human" way
  - recognize gestures
  
  Human set of semsors and learning process will be same for algorytm
+ 
+ 
