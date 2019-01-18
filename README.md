@@ -1,6 +1,6 @@
 # human.ai
 AI World forum Toronto, Canada
-Proposal
+Proposal text
 
 
 
