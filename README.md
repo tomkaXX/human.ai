@@ -2,8 +2,6 @@
 AI World forum Toronto, Canada
 Proposal text
 
-
-
 ### "Build AI like a human"
 
 
