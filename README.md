@@ -17,7 +17,7 @@ personalized tasks and lists
 
 *Intel Real Sence* camera for gesture recognition
 
-data visualizatuon tools
+data visualizatuon tools:
 
 python packages
 
