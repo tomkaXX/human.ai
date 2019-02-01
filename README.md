@@ -20,9 +20,7 @@ personalized tasks and lists
 data visualizatuon tools:
 
 python packages
-
 mathplotlib 
-
 neo4j
 
 
