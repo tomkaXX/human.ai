@@ -14,7 +14,6 @@ personalized tasks and lists
 
 
 *Alexa voice service* and amazon cloud - lambda.
-
 *Intel Real Sence* camera for gesture recognition
 data visualizatuon tools:
 python packages
