@@ -12,7 +12,6 @@ Can intelligent behaviors arise from a combination of simple ones? Can machines 
 Trained model on TensorFlow can recognize people and store relevant data about them-
 personalized tasks and lists
 
-
 *Alexa voice service* and amazon cloud - lambda.
 *Intel Real Sence* camera for gesture recognition
 data visualizatuon tools:
