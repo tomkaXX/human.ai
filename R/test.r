@@ -60,3 +60,5 @@ worldwide_vector <- rowSums(star_wars_matrix)
 all_wars_matrix <- cbind(star_wars_matrix,worldwide_vector)
 all_wars_matrix 
 
+ls()
+#Just like cbind() has rbind(), colSums() has rowSums(). 
