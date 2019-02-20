@@ -17,3 +17,8 @@ boolean_vector <-c(TRUE, FALSE, TRUE)
 poker_vector <- c(140, -50, 20, -120, 240)
 # Assign days as names of poker_vector
 names(poker_vector) <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+
+poker_vector[2:5]
+# Select poker results for Monday, Tuesday and Wednesday
+poker_start <- poker_vector[c("Monday","Tuesday", "Wednesday")]
+mean(poker_start)
