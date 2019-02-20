@@ -21,4 +21,7 @@ names(poker_vector) <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
 poker_vector[2:5]
 # Select poker results for Monday, Tuesday and Wednesday
 poker_start <- poker_vector[c("Monday","Tuesday", "Wednesday")]
+
+# Calculate the average of the elements in poker_start
 mean(poker_start)
+
