@@ -103,3 +103,9 @@ my_df <- mtcars[1:10,]
 
 # Construct list with these different elements:
 my_list <- list(my_vector, my_matrix, my_df)
+
+# Print out the vector representing the actors
+ shining_list[[2]]
+
+# Print the second element of the vector representing the actors
+shining_list[[2]][2]
