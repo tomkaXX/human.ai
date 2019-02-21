@@ -62,3 +62,26 @@ all_wars_matrix
 
 ls()
 #Just like cbind() has rbind(), colSums() has rowSums(). 
+
+#Those who are familiar with matrices should note that this is not the standard matrix multiplication for which you should use %*% in R.
+
+# Create factor_speed_vector
+speed_vector <- c("medium", "slow", "slow", "medium", "fast")
+factor_speed_vector <- factor(speed_vector, ordered = TRUE, levels = c("slow", "medium", "fast"))
+
+# Factor value for second data analyst
+da2 <- factor_speed_vector[2]
+
+# Factor value for fifth data analyst
+da5 <- factor_speed_vector[5]
+
+# Definition of vectors
+name <- c("Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune")
+type <- c("Terrestrial planet", "Terrestrial planet", "Terrestrial planet", 
+          "Terrestrial planet", "Gas giant", "Gas giant", "Gas giant", "Gas giant")
+diameter <- c(0.382, 0.949, 1, 0.532, 11.209, 9.449, 4.007, 3.883)
+rotation <- c(58.64, -243.02, 1, 1.03, 0.41, 0.43, -0.72, 0.67)
+rings <- c(FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE)
+
+# Create a data frame from the vectors
+planets_df <- data.frame(name, type, diameter,rotation,rings)
