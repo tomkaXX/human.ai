@@ -89,6 +89,7 @@ planets_df <- data.frame(name, type, diameter,rotation,rings)
 # Play around with the order function in the console
 a <- c(100, 10, 1000)
 order(a)
+
 #to reshuffle a
 a[order(a)]
 
