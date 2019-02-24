@@ -13,6 +13,7 @@ character_vector <- c("a", "b", "c")
 # Complete the code for boolean_vector
 boolean_vector <-c(TRUE, FALSE, TRUE)
 
+
 # Poker winnings from Monday to Friday
 poker_vector <- c(140, -50, 20, -120, 240)
 # Assign days as names of poker_vector
