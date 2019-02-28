@@ -24,5 +24,6 @@ planets_df[positions, name]
 
 pl <- name[order(positions)]
 planets_df <- planets_df[order(planets_df$diameter), ]
+
 planets_df$name <- factor(planets_df$name, levels = planets_df$name[order(planets_df$diameter)])
 ggplot(planets_df, aes(x = name, y = diameter))+ theme_bw() + geom_bar(stat = "identity")
