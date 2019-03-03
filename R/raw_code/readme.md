@@ -1,5 +1,8 @@
 # R packages
 
+#devtools
+https://github.com/r-lib/devtools
+
 Type the code you would need to install the `ggplot2` package.
 
 > install.packages("ggplot2")
