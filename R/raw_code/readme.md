@@ -10,6 +10,6 @@ library(ggplot2)
 
 While you can use version to detect the version of R you're running, what code would you use to
 | check the version of R and the version of each package you're running?
-sessionInfo()
-R.Version()
-version
+>sessionInfo()
+>R.Version()
+>version
