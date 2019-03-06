@@ -23,3 +23,16 @@ Write code that will use a function to display the first 6 rows of the `iris` da
 6          5.4         3.9          1.7         0.4  setosa
 
 > tail(iris)
+
+
+> ozone_levels <- c(1,2,1,3,1,1)
+> ozone_factor <- factor(ozone_levels, levels = 1:3, labels = c("low", "medium", "hi\
+gh"))
+> ozone_factor
+[1] low    medium low    high   low    low   
+Levels: low medium high
+> ozone_factor2 <- factor(ozone_levels, levels = c(2,1,3), labels = c("medium", "low\
+", "high"))
+> ozone_factor2
+[1] low    medium low    high   low    low   
+Levels: medium low high
