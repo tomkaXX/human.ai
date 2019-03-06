@@ -36,3 +36,6 @@ Levels: low medium high
 > ozone_factor2
 [1] low    medium low    high   low    low   
 Levels: medium low high
+
+str(df)
+>
